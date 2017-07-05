@@ -12,7 +12,7 @@ set(PACKAGE_TARNAME "${PACKAGE_NAME}")
 
 option(BUILD_tools "build the xmlwf tool for expat library" ON)
 option(BUILD_examples "build the examples for expat library" ON)
-option(BUILD_tests "build the tests for expat library" ON)
+option(BUILD_tests "build the tests for expat library" OFF)
 option(BUILD_shared "build a shared expat library" ON)
 option(BUILD_doc "build man page for xmlwf" ON)
 option(INSTALL "install expat files in cmake install target" ON)
